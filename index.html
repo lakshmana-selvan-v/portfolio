@@ -18,6 +18,7 @@
             <div class="nav-right" id="nav-menu">
                 <a href="#about" class="nav-link">About</a>
                 <a href="#experience" class="nav-link">Experience</a>
+                <a href="#work-journey" class="nav-link">Work Journey</a>
                 <a href="#skills" class="nav-link">Skills</a>
                 <a href="#projects" class="nav-link">Projects</a>
                 <a href="#education" class="nav-link">Education</a>
@@ -156,6 +157,61 @@
                                 <span class="experience-text">Experience in <strong>Documentation Systems</strong> for construction and infrastructure project management.</span>
                             </li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="work-journey" class="work-journey">
+            <div class="container">
+                <h2 class="section-title">Work Experience Journey</h2>
+                <div class="underline"></div>
+                <div class="work-journey-content">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker">
+                                <div class="marker-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                                        <circle cx="12" cy="7" r="4"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="timeline-content">
+                                <div class="work-card">
+                                    <div class="work-header">
+                                        <h3>Software Developer</h3>
+                                        <div class="work-company">Icanio Technology, Tirunelveli</div>
+                                    </div>
+                                    <div class="work-timeline">
+                                        <span class="work-period">Aug 2024 - Present</span>
+                                        <span class="work-role">SDE 1</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker">
+                                <div class="marker-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                                        <path d="M2 17l10 5 10-5"/>
+                                        <path d="M2 12l10 5 10-5"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="timeline-content">
+                                <div class="work-card">
+                                    <div class="work-header">
+                                        <h3>Software Developer Intern</h3>
+                                        <div class="work-company">Icanio Technology, Tirunelveli</div>
+                                    </div>
+                                    <div class="work-timeline">
+                                        <span class="work-period">Jan 2024 - Aug 2024</span>
+                                        <span class="work-role">SDE Intern</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -494,7 +550,7 @@
         }, observerOptions);
         
         // Observe elements for animation
-        document.querySelectorAll('.project-card, .tools-card, .about-content, .education-item, .experience-content, .strength-card').forEach(el => {
+        document.querySelectorAll('.project-card, .tools-card, .about-content, .education-item, .experience-content, .strength-card, .work-card').forEach(el => {
             observer.observe(el);
         });
     </script>
